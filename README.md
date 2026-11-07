@@ -15,10 +15,6 @@ Built an Active Directory lab using Microsoft Azure virtual machines to practice
 - Practice password resets, account disabling, and account recovery.
 - Inspect Windows Security event logs.
 
-## Implementation and screenshots
-
-> Screenshots are original lab evidence. Image filenames retain their original step numbers; Step 21 was omitted because it duplicated Step 18.
-
 ### Azure infrastructure and domain connectivity
 
 **Step 01 — Created Azure resource groups for the Active Directory lab.**
