@@ -101,53 +101,53 @@ Built an Active Directory lab using Microsoft Azure virtual machines to practice
 
 ### Account lockout and recovery
 
-**Step 22 — Configured a domain account lockout threshold of five invalid attempts, with a 10-minute lockout duration and reset interval; verified settings with net accounts /domain.**
+**Step 21 — Configured a domain account lockout threshold of five invalid attempts, with a 10-minute lockout duration and reset interval; verified settings with net accounts /domain.**
 
 ![Step 22: Configured a domain account lockout threshold of five invalid attempts, with a 10-minute lockout duration and reset interval; verified settings with net accounts /domain.](Lab-5-Step-22.png)
 
-**Step 23 — Confirmed that repeated invalid sign-in attempts caused an RDP account lockout.**
+**Step 22 — Confirmed that repeated invalid sign-in attempts caused an RDP account lockout.**
 
 ![Step 23: Confirmed that repeated invalid sign-in attempts caused an RDP account lockout.](Lab-5-Step-23.png)
 
-**Step 24 — Inspected the locked account in Active Directory Users and Computers and selected the unlock option.**
+**Step 23 — Inspected the locked account in Active Directory Users and Computers and selected the unlock option.**
 
 ![Step 24: Inspected the locked account in Active Directory Users and Computers and selected the unlock option.](Lab-5-Step-24.png)
 
-**Step 25 — Reset the test user password in Active Directory.**
+**Step 24 — Reset the test user password in Active Directory.**
 
 ![Step 25: Reset the test user password in Active Directory.](Lab-5-Step-25.png)
 
-**Step 26 — Checked the user session after account recovery.**
+**Step 25 — Checked the user session after account recovery.**
 
 ![Step 26: Checked the user session after account recovery.](Lab-5-Step-26.png)
 
-**Step 27 — Disabled the test user account in Active Directory.**
+**Step 26 — Disabled the test user account in Active Directory.**
 
 ![Step 27: Disabled the test user account in Active Directory.](Lab-5-Step-27.png)
 
-**Step 28 — Confirmed that a disabled user account was blocked from signing in over RDP.**
+**Step 27 — Confirmed that a disabled user account was blocked from signing in over RDP.**
 
 ![Step 28: Confirmed that a disabled user account was blocked from signing in over RDP.](Lab-5-Step-28.png)
 
-**Step 29 — Re-enabled the test user account.**
+**Step 28 — Re-enabled the test user account.**
 
 ![Step 29: Re-enabled the test user account.](Lab-5-Step-29.png)
 
 ### Security auditing with Event Viewer
 
-**Step 30 — Reviewed Windows Security Event ID 4740, indicating the test account was locked out.**
+**Step 29 — Reviewed Windows Security Event ID 4740, indicating the test account was locked out.**
 
 ![Step 30: Reviewed Windows Security Event ID 4740, indicating the test account was locked out.](Lab-5-Step-30.png)
 
-**Step 31 — Reviewed Security Event ID 4624 for a successful logon recorded on DC-1.**
+**Step 30 — Reviewed Security Event ID 4624 for a successful logon recorded on DC-1.**
 
 ![Step 31: Reviewed Security Event ID 4624 for a successful logon recorded on DC-1.](Lab-5-Step-31.png)
 
-**Step 32 — Reviewed Security Event ID 4776 for a failed credential validation attempt.**
+**Step 31 — Reviewed Security Event ID 4776 for a failed credential validation attempt.**
 
 ![Step 32: Reviewed Security Event ID 4776 for a failed credential validation attempt.](Lab-5-Step-32.png)
 
-**Step 33 — Reviewed Security Event ID 4624 on Client-1, showing a successful logon event for the test account.**
+**Step 32 — Reviewed Security Event ID 4624 on Client-1, showing a successful logon event for the test account.**
 
 ![Step 33: Reviewed Security Event ID 4624 on Client-1, showing a successful logon event for the test account.](Lab-5-Step-33.png)
 
