@@ -28,7 +28,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The resource groups appear in the Resource groups list.
 
-!\[Step 1](images/Lab-5-Step-01.png)
+![Step 1](images/Lab-5-Step-01.png)
 
 #### Step 02 — Create the virtual network and subnet
 
@@ -36,7 +36,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The new virtual network and subnet are available for both VMs.
 
-!\[Step 2](images/Lab-5-Step-02.png)
+![Step 2](images/Lab-5-Step-02.png)
 
 #### Step 03 — Review the virtual network configuration
 
@@ -44,7 +44,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The VNet and subnet show the intended configuration.
 
-!\[Step 3](images/Lab-5-Step-03.png)
+![Step 3](images/Lab-5-Step-03.png)
 
 #### Step 04 — Deploy the DC-1 Windows Server VM
 
@@ -52,7 +52,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** Azure reports a successful deployment and DC-1 appears in Virtual machines.
 
-!\[Step 4](images/Lab-5-Step-04.png)
+![Step 4](images/Lab-5-Step-04.png)
 
 #### Step 05 — Assign DC-1 a static private IP
 
@@ -60,7 +60,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** Azure shows DC-1’s private IP allocation set to **Static**. This configuration is intended to retain the address across restarts.
 
-!\[Step 5](images/Lab-5-Step-05.png)
+![Step 5](images/Lab-5-Step-05.png)
 
 #### Step 06 — Review Windows Firewall for connectivity testing
 
@@ -68,7 +68,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The firewall configuration used for the lab is visible; the ping results are documented separately in Step 08.
 
-!\[Step 6](images/Lab-5-Step-06.png)
+![Step 6](images/Lab-5-Step-06.png)
 
 #### Step 07 — Configure Client-1 to use DC-1 for DNS
 
@@ -76,7 +76,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** Client-1 uses the domain controller as its DNS server.
 
-!\[Step 7](images/Lab-5-Step-07.png)
+![Step 7](images/Lab-5-Step-07.png)
 
 #### Step 08 — Test connectivity between Client-1 and DC-1
 
@@ -84,7 +84,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The ping returns replies from DC-1, confirming basic IP connectivity.
 
-!\[Step 8](images/Lab-5-Step-08.png)
+![Step 8](images/Lab-5-Step-08.png)
 
 #### Step 09 — Verify IP and DNS settings on Client-1
 
@@ -92,7 +92,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The DNS Servers entry matches DC-1’s private IP.
 
-!\[Step 9](images/Lab-5-Step-09.png)
+![Step 9](images/Lab-5-Step-09.png)
 
 
 
@@ -104,7 +104,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The Server Manager role-selection screen shows Active Directory Domain Services selected for installation.
 
-!\[Step 10](images/Lab-5-Step-10.png)
+![Step 10](images/Lab-5-Step-10.png)
 
 #### Step 11 — Verify the domain in Active Directory Users and Computers
 
@@ -112,7 +112,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** Active Directory Users and Computers displays the `mydomain.com` domain after domain-controller promotion. The screenshot documents the resulting domain, not the promotion wizard.
 
-!\[Step 11](images/Lab-5-Step-11.png)
+![Step 11](images/Lab-5-Step-11.png)
 
 #### Step 12 — Create administrator and employee organizational units
 
@@ -120,7 +120,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** Both OUs appear under the domain and can hold their respective accounts.
 
-!\[Step 12](images/Lab-5-Step-12.png)
+![Step 12](images/Lab-5-Step-12.png)
 
 #### Step 13 — Verify the administrative account in \_ADMINS
 
@@ -128,7 +128,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The `Jane Doe` user account is visible inside `\_ADMINS`. This screenshot shows the account's location, not its Domain Admins group membership.
 
-!\[Step 13](images/Lab-5-Step-13.png)
+![Step 13](images/Lab-5-Step-13.png)
 
 #### Step 14 — Create and grant membership to the admin account
 
@@ -136,7 +136,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The account properties show membership in the Domain Admins group.
 
-!\[Step 14](images/Lab-5-Step-14.png)
+![Step 14](images/Lab-5-Step-14.png)
 
 #### Step 15 — Verify Client-1 in the \_CLIENTS organizational unit
 
@@ -144,7 +144,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The `Client-1` computer object appears inside `\_CLIENTS`, confirming its location in the domain's organizational unit structure.
 
-!\[Step 15](images/Lab-5-Step-15.png)
+![Step 15](images/Lab-5-Step-15.png)
 
 #### Step 16 — Configure Remote Desktop access for domain users on Client-1
 
@@ -152,7 +152,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** Remote Desktop is enabled and the user-selection dialog documents the domain-user access configuration. This screenshot does not document the domain-join dialog.
 
-!\[Step 16](images/Lab-5-Step-16.png)
+![Step 16](images/Lab-5-Step-16.png)
 
 #### Step 17 — Create employee test accounts with PowerShell
 
@@ -160,7 +160,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** PowerShell ISE displays the bulk-user script and its execution output. The resulting accounts are shown in Step 18.
 
-!\[Step 17](images/Lab-5-Step-17.png)
+![Step 17](images/Lab-5-Step-17.png)
 
 #### Step 18 — Verify the generated accounts in \_EMPLOYEES
 
@@ -168,7 +168,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** Multiple test employee accounts appear in `\_EMPLOYEES`.
 
-!\[Step 18](images/Lab-5-Step-18.png)
+![Step 18](images/Lab-5-Step-18.png)
 
 #### Step 19 — Verify a standard domain user with whoami
 
@@ -176,7 +176,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The `whoami` output identifies the signed-in domain account as `mydomain\\sok.dem`.
 
-!\[Step 19](images/Lab-5-Step-19.png)
+![Step 19](images/Lab-5-Step-19.png)
 
 #### Step 20 — Check that both Azure VMs are running
 
@@ -184,7 +184,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** Both VMs show Running and are available for the next tests.
 
-!\[Step 20](images/Lab-5-Step-20.png)
+![Step 20](images/Lab-5-Step-20.png)
 
 
 
@@ -196,7 +196,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The effective domain policy reports a threshold of five attempts and 10-minute lockout/reset settings.
 
-!\[Step 22](images/Lab-5-Step-22.png)
+![Step 22](images/Lab-5-Step-22.png)
 
 #### Step 23 — Reproduce an account lockout over Remote Desktop
 
@@ -204,7 +204,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** Windows denies sign-in and reports that the account is locked out.
 
-!\[Step 23](images/Lab-5-Step-23.png)
+![Step 23](images/Lab-5-Step-23.png)
 
 #### Step 24 — Locate and unlock the affected account
 
@@ -212,7 +212,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The Account tab shows the option to unlock the affected account selected; this screenshot documents the recovery action.
 
-!\[Step 24](images/Lab-5-Step-24.png)
+![Step 24](images/Lab-5-Step-24.png)
 
 #### Step 25 — Reset the test account password
 
@@ -220,7 +220,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** ADUC displays a password-reset confirmation. Step 26 separately documents access to the user profile after recovery.
 
-!\[Step 25](images/Lab-5-Step-25.png)
+![Step 25](images/Lab-5-Step-25.png)
 
 #### Step 26 — Open Command Prompt under the recovered user profile
 
@@ -228,7 +228,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The prompt displays `C:\\Users\\nado.cif>`, indicating the test user's profile. The screenshot does not show a `whoami` command.
 
-!\[Step 26](images/Lab-5-Step-26.png)
+![Step 26](images/Lab-5-Step-26.png)
 
 #### Step 27 — Disable the test user account
 
@@ -236,7 +236,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The user account is disabled in Active Directory.
 
-!\[Step 27](images/Lab-5-Step-27.png)
+![Step 27](images/Lab-5-Step-27.png)
 
 #### Step 28 — Confirm the disabled account cannot sign in
 
@@ -244,7 +244,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** Windows blocks authentication and displays a disabled-account message.
 
-!\[Step 28](images/Lab-5-Step-28.png)
+![Step 28](images/Lab-5-Step-28.png)
 
 #### Step 29 — Re-enable the test user account
 
@@ -252,7 +252,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** ADUC displays the confirmation that the test account was enabled again.
 
-!\[Step 29](images/Lab-5-Step-29.png)
+![Step 29](images/Lab-5-Step-29.png)
 
 
 
@@ -264,7 +264,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** A 4740 event records the account lockout, where auditing captured the event.
 
-!\[Step 30](images/Lab-5-Step-30.png)
+![Step 30](images/Lab-5-Step-30.png)
 
 #### Step 31 — Inspect Event ID 4624 on DC-1
 
@@ -272,7 +272,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** Event ID 4624 documents a successful logon on DC-1; it does not necessarily represent an interactive sign-in.
 
-!\[Step 31](images/Lab-5-Step-31.png)
+![Step 31](images/Lab-5-Step-31.png)
 
 #### Step 32 — Inspect Event ID 4776 for failed credential validation
 
@@ -280,7 +280,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The event shows a failed credential validation for the test account with status `0xC0000072`, indicating that the account was disabled. This is distinct from an incorrect-password error.
 
-!\[Step 32](images/Lab-5-Step-32.png)
+![Step 32](images/Lab-5-Step-32.png)
 
 #### Step 33 — Inspect a successful network logon on Client-1
 
@@ -288,7 +288,7 @@ I built an Active Directory test environment in Microsoft Azure to practice Wind
 
 **What I checked:** The event reports **Logon Type 3**, which indicates a successful **network logon**. It does not, by itself, prove an interactive Remote Desktop sign-in.
 
-!\[Step 33](images/Lab-5-Step-33.png)
+![Step 33](images/Lab-5-Step-33.png)
 
 ## Results
 
