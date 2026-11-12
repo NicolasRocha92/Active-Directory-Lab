@@ -31,7 +31,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The resource group or groups appear in the Azure portal.
 
-!\[Step 01](images/Lab-5-Step-01.png)
+![Step 01](images/Lab-5-Step-01.png)
 
 #### Step 02 — Create a virtual network and subnet
 
@@ -39,7 +39,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The virtual network and subnet are available.
 
-!\[Step 02](images/Lab-5-Step-02.png)
+![Step 02](images/Lab-5-Step-02.png)
 
 #### Step 03 — Verify the virtual network configuration
 
@@ -47,7 +47,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The network settings match the planned lab environment.
 
-!\[Step 03](images/Lab-5-Step-03.png)
+![Step 03](images/Lab-5-Step-03.png)
 
 #### Step 04 — Deploy the DC-1 virtual machine
 
@@ -55,7 +55,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** Azure reports successful deployment of `DC-1`.
 
-!\[Step 04](images/Lab-5-Step-04.png)
+![Step 04](images/Lab-5-Step-04.png)
 
 #### Step 05 — Assign DC-1 a static private IP address
 
@@ -63,7 +63,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The private IP allocation shows **Static** in Azure.
 
-!\[Step 05](images/Lab-5-Step-05.png)
+![Step 05](images/Lab-5-Step-05.png)
 
 #### Step 06 — Configure Windows Firewall for the connectivity test
 
@@ -71,7 +71,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The firewall configuration permits the intended connectivity test.
 
-!\[Step 06](images/Lab-5-Step-06.png)
+![Step 06](images/Lab-5-Step-06.png)
 
 #### Step 07 — Deploy Client-1 and configure DNS
 
@@ -79,7 +79,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The client uses `DC-1` as its configured DNS server.
 
-!\[Step 07](images/Lab-5-Step-07.png)
+![Step 07](images/Lab-5-Step-07.png)
 
 #### Step 08 — Test connectivity to DC-1
 
@@ -87,7 +87,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** Replies from `DC-1` confirm basic IP connectivity; a successful ping alone does not verify DNS.
 
-!\[Step 08](images/Lab-5-Step-08.png)
+![Step 08](images/Lab-5-Step-08.png)
 
 #### Step 09 — Verify Client-1 DNS settings
 
@@ -95,7 +95,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The DNS server address matches `DC-1`.
 
-!\[Step 09](images/Lab-5-Step-09.png)
+![Step 09](images/Lab-5-Step-09.png)
 
 ### Active Directory Setup and Domain Administration
 
@@ -105,7 +105,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** AD DS installation completes and the domain-controller promotion wizard is available.
 
-!\[Step 10](images/Lab-5-Step-10.png)
+![Step 10](images/Lab-5-Step-10.png)
 
 #### Step 11 — Promote DC-1 and create the domain
 
@@ -113,7 +113,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The `mydomain.com` domain is visible in ADUC.
 
-!\[Step 11](images/Lab-5-Step-11.png)
+![Step 11](images/Lab-5-Step-11.png)
 
 #### Step 12 — Create the employee and administrator OUs
 
@@ -121,7 +121,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** Both OUs appear under the domain.
 
-!\[Step 12](images/Lab-5-Step-12.png)
+![Step 12](images/Lab-5-Step-12.png)
 
 #### Step 13 — Verify the organizational unit structure
 
@@ -129,7 +129,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** Both OUs are visible in the expected location.
 
-!\[Step 13](images/Lab-5-Step-13.png)
+![Step 13](images/Lab-5-Step-13.png)
 
 #### Step 14 — Create and verify the domain administrator
 
@@ -137,7 +137,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The user belongs to **Domain Admins**. A successful domain sign-in verifies that the account can authenticate.
 
-!\[Step 14](images/Lab-5-Step-14.png)
+![Step 14](images/Lab-5-Step-14.png)
 
 #### Step 15 — Join Client-1 to the domain and organize its computer account
 
@@ -145,7 +145,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** `Client-1` is joined to `mydomain.com` and its computer object appears in `\_CLIENTS`.
 
-!\[Step 15](images/Lab-5-Step-15.png)
+![Step 15](images/Lab-5-Step-15.png)
 
 ### Remote Desktop and Employee Account Management
 
@@ -155,7 +155,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** Domain Users are permitted to use Remote Desktop on the client, subject to applicable policy and firewall settings.
 
-!\[Step 16](images/Lab-5-Step-16.png)
+![Step 16](images/Lab-5-Step-16.png)
 
 #### Step 17 — Create employee accounts using PowerShell
 
@@ -163,7 +163,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The script creates test user accounts in Active Directory.
 
-!\[Step 17](images/Lab-5-Step-17.png)
+![Step 17](images/Lab-5-Step-17.png)
 
 #### Step 18 — Verify employee accounts in ADUC
 
@@ -171,7 +171,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The generated users appear in `\_EMPLOYEES`.
 
-!\[Step 18](images/Lab-5-Step-18.png)
+![Step 18](images/Lab-5-Step-18.png)
 
 #### Step 19 — Test sign-in with a standard domain user
 
@@ -179,7 +179,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The command displays the domain and username of the signed-in account.
 
-!\[Step 19](images/Lab-5-Step-19.png)
+![Step 19](images/Lab-5-Step-19.png)
 
 ### Account Lockout and Recovery
 
@@ -189,7 +189,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** Both VMs show **Running**.
 
-!\[Step 20](images/Lab-5-Step-20.png)
+![Step 20](images/Lab-5-Step-20.png)
 
 #### Step 21 — Test incorrect passwords before changing the lockout policy
 
@@ -203,7 +203,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The domain account policy shows a five-attempt threshold. `net accounts /domain` can be used to inspect the effective domain account policy; this command is an optional verification step.
 
-!\[Step 22](images/Lab-5-Step-22.png)
+![Step 22](images/Lab-5-Step-22.png)
 
 #### Step 23 — Test account lockout after the policy change
 
@@ -211,7 +211,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** Windows reports that the account is locked out, and ADUC can be used to inspect its status.
 
-!\[Step 23](images/Lab-5-Step-23.png)
+![Step 23](images/Lab-5-Step-23.png)
 
 #### Step 24 — Unlock the test account
 
@@ -219,7 +219,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The account is no longer locked out.
 
-!\[Step 24](images/Lab-5-Step-24.png)
+![Step 24](images/Lab-5-Step-24.png)
 
 #### Step 25 — Reset the test account password
 
@@ -227,7 +227,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** ADUC confirms the password reset.
 
-!\[Step 25](images/Lab-5-Step-25.png)
+![Step 25](images/Lab-5-Step-25.png)
 
 #### Step 26 — Verify account recovery with a sign-in
 
@@ -235,7 +235,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** A successful sign-in and matching `whoami` output verify recovery.
 
-!\[Step 26](images/Lab-5-Step-26.png)
+![Step 26](images/Lab-5-Step-26.png)
 
 #### Step 27 — Disable the test user account
 
@@ -243,7 +243,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** ADUC shows that the account is disabled.
 
-!\[Step 27](images/Lab-5-Step-27.png)
+![Step 27](images/Lab-5-Step-27.png)
 
 #### Step 28 — Confirm the disabled account cannot sign in
 
@@ -251,7 +251,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** Windows rejects authentication because the account is disabled.
 
-!\[Step 28](images/Lab-5-Step-28.png)
+![Step 28](images/Lab-5-Step-28.png)
 
 #### Step 29 — Re-enable the test account and test sign-in
 
@@ -259,7 +259,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** ADUC shows the account as enabled. A successful sign-in confirms that access is restored; if sign-in fails, investigate other restrictions before claiming success.
 
-!\[Step 29](images/Lab-5-Step-29.png)
+![Step 29](images/Lab-5-Step-29.png)
 
 ### Security Logs and Event Viewer
 
@@ -269,7 +269,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** Event ID `4740` identifies an account lockout when the event is recorded.
 
-!\[Step 30](images/Lab-5-Step-30.png)
+![Step 30](images/Lab-5-Step-30.png)
 
 #### Step 31 — Inspect successful logon events on DC-1
 
@@ -277,7 +277,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** Event ID `4624` indicates a successful logon; its logon type identifies the session category.
 
-!\[Step 31](images/Lab-5-Step-31.png)
+![Step 31](images/Lab-5-Step-31.png)
 
 #### Step 32 — Inspect NTLM credential validation on DC-1
 
@@ -285,7 +285,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** Event ID `4776` records NTLM credential validation activity when applicable.
 
-!\[Step 32](images/Lab-5-Step-32.png)
+![Step 32](images/Lab-5-Step-32.png)
 
 #### Step 33 — Inspect logon events on Client-1
 
@@ -293,7 +293,7 @@ This lab demonstrates the setup and administration of an Active Directory domain
 
 **Expected result:** The event details distinguish network authentication from an interactive RDP sign-in.
 
-!\[Step 33](images/Lab-5-Step-33.png)
+![Step 33](images/Lab-5-Step-33.png)
 
 ## Skills Practiced
 
